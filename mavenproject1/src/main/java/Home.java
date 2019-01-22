@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Home 
 {
 	WebDriver driver;
+	chrome driver;
 	
 	@FindBy(linkText = "My Account")
 	WebElement myacc;
